@@ -13,6 +13,7 @@
 		881B32F52353DF0B0065C7EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881B32F32353DF0B0065C7EA /* Main.storyboard */; };
 		881B32F72353DF0C0065C7EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 881B32F62353DF0C0065C7EA /* Assets.xcassets */; };
 		881B32FA2353DF0C0065C7EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881B32F82353DF0C0065C7EA /* LaunchScreen.storyboard */; };
+		881B33022353E19B0065C7EA /* pokedex.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 881B33012353E19B0065C7EA /* pokedex.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		881B32F62353DF0C0065C7EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		881B32F92353DF0C0065C7EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		881B32FB2353DF0C0065C7EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		881B33012353E19B0065C7EA /* pokedex.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = pokedex.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		881B32EC2353DF0B0065C7EA /* pokedex */ = {
 			isa = PBXGroup;
 			children = (
+				881B33012353E19B0065C7EA /* pokedex.mlmodel */,
 				881B32ED2353DF0B0065C7EA /* AppDelegate.swift */,
 				881B32EF2353DF0B0065C7EA /* SceneDelegate.swift */,
 				881B32F12353DF0B0065C7EA /* ViewController.swift */,
@@ -141,6 +144,7 @@
 				881B32F22353DF0B0065C7EA /* ViewController.swift in Sources */,
 				881B32EE2353DF0B0065C7EA /* AppDelegate.swift in Sources */,
 				881B32F02353DF0B0065C7EA /* SceneDelegate.swift in Sources */,
+				881B33022353E19B0065C7EA /* pokedex.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
